@@ -26,7 +26,7 @@ ul {
 }
 
 .nav {
-  background-color: darkorange;
+  background-color: #ff6600;
   margin-bottom: 10px;
 }
 
@@ -42,7 +42,7 @@ strong {
 }
 
 #container {
-	background-color: beige;
+	background-color: #f6f6ef;
 	max-width: 80%;
 	margin: 10px auto;
 	padding-bottom: 30px;
@@ -78,13 +78,31 @@ ul {
 	list-style: none;
 }
 
-p, p a {
+ul p {
+	color: grey;
+	padding-left: 27px;
+	font-size: .75em;
+}
+
+p a {
 	color: grey;
 }
 
 .header a, .footer a,
 h4 a {
 	color: black;
+}
+
+.content li {
+	padding-left: 8px;
+}
+
+#last {
+	padding: 0;
+}
+
+.article {
+	font-size: 1.1em;
 }
 
 a {
@@ -106,11 +124,12 @@ ul.content {
 }
 
 .more a {
-	color: black;
+	padding-left: 27px;
+	color: grey;
 }
 
 .line {
-	border: 1px solid orange;
+	border: 1px solid #ff6600;
 }
 
 div.search {
