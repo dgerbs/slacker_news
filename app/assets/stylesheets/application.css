@@ -74,6 +74,9 @@ ul.content {
 	padding-left: 0px;
 }
 
+.line {
+	border: 1px solid orange;
+}
 .footer li {
 	display: inline-block;
 	margin: auto;
