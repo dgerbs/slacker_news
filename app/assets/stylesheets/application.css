@@ -1,3 +1,5 @@
+@import url("normalize.css");
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -12,35 +14,68 @@
  *= require_tree .
  */
 
-html {
-	height: 100%;
-}
-
 body {
 	max-width: 1000px;
 	margin: auto;
 	border: 1px solid black;
 }
 
-h3 {
+h1 {
+	margin: 0px;
+	padding: 0px;
 	border: 1px solid black;
-	padding: 0;
-	margin: 0;
 }
 
-nav li{
-	padding-left:;
+.header img {
+	margin: 0px;
+	float: left;
+}
+
+ul.header {
+	padding: 0px;
+}
+
+h4 {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+p {
+	margin: 0 0 5px 0;
+}
+
+ul {
+	list-style: none;
+}
+
+nav {
+	border: 1px solid black;
+	margin: 0;
+	background-color: orange;
+}
+
+nav li {
+	padding-left: 0;
 	list-style: none;
 	display: inline-block;
-	border: 1px solid black;
+}
+
+a {
+	text-decoration: none;
 }
 
 .login {
-	float: right;
 	border: 1px solid black;
+	/* float: right; */
 }
 
-.footer {
+ul.content {
+	padding-left: 0px;
+}
+
+.footer li {
+	display: inline-block;
 	margin: auto;
 	padding: auto;
 	text-align: center;
