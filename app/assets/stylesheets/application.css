@@ -18,6 +18,11 @@ body {
 	max-width: 1000px;
 	margin: auto;
 	border: 1px solid black;
+	background-color: ;
+}
+
+#container {
+	background-color: beige;
 }
 
 h1 {
@@ -61,8 +66,22 @@ nav li {
 	display: inline-block;
 }
 
+p, p a {
+	color: grey;
+}
+
+.header a, .footer a,
+h4 a {
+	color: black;
+}
+
 a {
+	color: ;
 	text-decoration: none;
+}
+
+a span {
+	color: grey;
 }
 
 .login {
@@ -72,6 +91,10 @@ a {
 
 ul.content {
 	padding-left: 0px;
+}
+
+.more a {
+	color: black;
 }
 
 .line {
