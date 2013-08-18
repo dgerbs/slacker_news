@@ -8,16 +8,16 @@
 	</head>
 	<body>
 		<div id="container">
-			<nav>
-				<ul class="header">
-					<li><img src="#" /></li>
-					<li><h1>Slacker News</h1></li>
+			<nav class="nav">
+				<ul>
+					<img class="logo" src="https://news.ycombinator.com/y18.gif" />
+					<li><strong><a href="#">Slacker News</a></strong></li>
 					<li><a href="#">new</a></li> |
 					<li><a href="#">comments</a></li> |
 					<li><a href="#">ask</a></li> |
 					<li><a href="#">jobs</a></li> |
 					<li><a href="#">submit</a></li>
-					<li class="login"><a href="#">login</a></li>		
+					<div class="login"><li><a href="#">login</a></li></div>		
 				</ul>
 			</nav>
 
@@ -39,7 +39,7 @@
 					<li><a href="#">Apply</a></li> |
 					<li><a href="#">Library</a></li>			
 				</ul>
-				<div>
+				<div class="search">
 					<form>
 					 	<label>Search:</label>
 						<input type="search" name="search">
