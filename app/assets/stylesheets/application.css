@@ -105,6 +105,14 @@ h4 a {
 	padding: 0;
 }
 
+.arrow {
+	padding: 0 8px 0 0;
+}
+
+.hack_shift {
+	padding-left: 27px;
+}
+
 .article {
 	font-size: 1.1em;
 }
@@ -139,6 +147,17 @@ ul.content {
 div.search {
 	padding-top: 15px;
 	text-align: center;
+}
+
+textarea[type="text"] {
+	margin: 27px;
+	width: 500px;
+	height: 100px;
+	display: block;
+}
+
+button {
+	margin-left: 27px;
 }
 
 .footer ul {
