@@ -101,6 +101,51 @@ h4 a {
 	color: grey;
 }
 
+button {
+	margin-bottom: 60px;
+}
+
+.reply {
+	margin-bottom: 20px;
+	padding-left: 8px;
+	color: grey;
+	font-size: .9em;
+}
+
+.reply a {
+	color: grey;
+	text-decoration: none;
+}
+
+.reply p {
+	margin-top: 10px;
+	color: black;
+	font-size: 1.1em;
+	padding-left: 18px;
+}
+
+.rlink {
+	padding: 18px;
+}
+
+.rlink a {
+	color: black;
+	text-decoration: underline;
+}
+
+.reply2 {
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+.reply3 {
+	margin-left: 80px;
+}
+
+.margin {
+	margin-bottom: 50px;
+}
+
 #last {
 	padding: 0;
 }
@@ -109,8 +154,17 @@ h4 a {
 	padding: 0 8px 0 0;
 }
 
+.arrow_reply {
+	padding: 0;
+	margin: 0;
+}
+
 .hack_shift {
 	padding-left: 27px;
+}
+
+.reply_shift {
+	padding-left: 8px;
 }
 
 .article {
